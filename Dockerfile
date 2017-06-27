@@ -1,7 +1,8 @@
 FROM showpass/python-django
 
 # CircleCI
-RUN apk add git tar gzip
+RUN apk update
+RUN apk add git tar gzip openssl openssh-client
 
 # Docker client
 RUN set -x \
