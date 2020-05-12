@@ -1,4 +1,4 @@
-FROM showpass/python-django
+FROM showpass/python3-django
 
 # CircleCI
 RUN apk update
